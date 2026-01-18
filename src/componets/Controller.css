@@ -1,0 +1,22 @@
+.controller {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.controller .btn {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.controller .btn:hover {
+  background: #f5f5f5;
+}
+
+.controller .btn:active {
+  transform: translateY(1px);
+}
